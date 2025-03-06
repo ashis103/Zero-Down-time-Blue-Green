@@ -71,8 +71,4 @@ Next Step ::  NOW Go your Git bash , edit index file and push .
 Database image will not change but app image will create blue and green . 
 
 
-root@ip-172-31-31-235:~# docker ps
-CONTAINER ID   IMAGE                           COMMAND                  CREATED         STATUS         PORTS                                                    NAMES
-5943fd396d4c   ashis103/flask-attendance-app   "python run.py"          8 minutes ago   Up 8 minutes   0.0.0.0:5000->5000/tcp, [::]:5000->5000/tcp              flask-app-blue
-a774dd35e167   mysql:latest                    "docker-entrypoint.s…"   8 minutes ago   Up 8 minutes   0.0.0.0:3306->3306/tcp, [::]:3306->3306/tcp, 33060/tcp   mysql-db
-root@ip-172-31-31-235:~#
+
